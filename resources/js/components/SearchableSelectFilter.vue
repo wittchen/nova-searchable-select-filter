@@ -81,7 +81,7 @@ export default {
         return options
       }
 
-      return _.filter(options, option => option[this.trackBy].includes(this.search))
+      return _.filter(options, option => option[this.trackBy].toString().toLowerCase().includes(this.search))
     },
 
     value() {
