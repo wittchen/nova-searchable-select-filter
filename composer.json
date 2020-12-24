@@ -1,5 +1,5 @@
 {
-    "name": "fontech/nova-searchable-select-filter",
+    "name": "codealliance/nova-searchable-select-filter",
     "description": "Searchable select filter for Laravel Nova.",
     "keywords": [
         "laravel",
@@ -13,13 +13,13 @@
     },
     "autoload": {
         "psr-4": {
-            "Fontech\\SearchableSelectFilter\\": "src/"
+            "Codealliance\\SearchableSelectFilter\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Fontech\\SearchableSelectFilter\\FilterServiceProvider"
+                "Codealliance\\SearchableSelectFilter\\FilterServiceProvider"
             ]
         }
     },

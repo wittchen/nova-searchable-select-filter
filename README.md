@@ -1,9 +1,11 @@
 # Searchable select filter for Laravel Nova.
 
+forked from https://github.com/Fontech/nova-searchable-select-filter
+
 ## Installation
 
 ```bash
-composer require fontech/nova-searchable-select-filter
+composer require codealliance/nova-searchable-select-filter
 ```
 
 ## Usage

@@ -1,6 +1,6 @@
 <?php
 
-namespace Fontech\SearchableSelectFilter;
+namespace Codealliance\SearchableSelectFilter;
 
 use Illuminate\Support\ServiceProvider;
 use Laravel\Nova\Events\ServingNova;
